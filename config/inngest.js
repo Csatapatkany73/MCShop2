@@ -2,7 +2,7 @@ import { Inngest } from 'inngest'
 import connectDB from './db'
 
 // Create a client to send and receive events
-export const inngest = new Inngest({ id: 'mcshop-next' })
+export const inngest = new Inngest({ id: 'mcshop2-next' })
 
 //ingest function to save user data to a database
 export const syncUserCreation = inngest.createFunction(
